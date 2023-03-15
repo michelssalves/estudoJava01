@@ -1,7 +1,16 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Fill your name:");
+
+        String name = scanner.nextLine();
+
+        System.out.println(name);
 
             int x = 0;
 
@@ -13,13 +22,5 @@ public class Main {
                 x++;
             }
     }
-    static void olaMundo(){
 
-        System.out.println("Hello world!");
-    }
-    static int somar(int x, int y){
-
-           int soma =  x + y;
-            return soma;
-    }
 }
